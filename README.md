@@ -1,16 +1,16 @@
 # JWPlayer-Chapters-API
 
-Note: This is a early experiment after an hour of coding. It's really hacky and has only been testing in Safari and Chrome.
+Note: This is a early experiment after an hour of coding. It's really hacky and has only been tested in Safari and Chrome.
 
 Currently the only way to add chapter markers to the JW Player is via a WebVTT file.
 https://support.jwplayer.com/customer/portal/articles/1407454-adding-chapter-markers
 
 This JS Method allows you to add chapter markers via JavaScript without the need of a WebVTT file.
-It uses BlobURL to create a WEBVTT file which is then use by the JW Player.
+It uses BlobURL to create a WEBVTT file which is then used by the JW Player.
 
 ##Usage
 
-- Include the jwchapters.js file file or contents of file in your page.
+- Include the jwchapters.js file or contents of file into your page.
 - Call chaptersBlob() with an array containing the start of the chapters expressed in seconds.
 
 
