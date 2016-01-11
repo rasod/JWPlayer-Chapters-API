@@ -21,7 +21,6 @@ It uses BlobURL to create a WEBVTT file which is then used by the JW Player.
 <script type="text/javascript">
 
 var playerInstance = jwplayer("player");
-var qs = window.location.search;
 playerInstance.setup({
     file: 'mymovie.mp4',
 	tracks: [{
